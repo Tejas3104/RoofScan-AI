@@ -1,8 +1,8 @@
-# 🏠 DDR Report Generator — Urbanroof AI System
+ DDR Report Generator — Urbanroof AI System
 
 An AI-powered system that converts raw site inspection documents into structured, client-ready Detailed Diagnostic Reports (DDR).
 
-## 🎯 What It Does
+## What It Does
 
 Upload two PDF documents:
 - **Inspection Report** — site observations and issue descriptions
@@ -24,7 +24,7 @@ The system will:
 6. Additional Notes
 7. Missing or Unclear Information
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the repository
 ```bash
@@ -52,7 +52,7 @@ streamlit run app.py
 
 Open `http://localhost:8501` in your browser.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ddr-generator/
@@ -70,7 +70,7 @@ ddr-generator/
 └── outputs/                # Generated reports saved here
 ```
 
-## ☁️ Deploy to Streamlit Cloud (Free)
+##  Deploy to Streamlit Cloud (Free)
 
 1. Push this repo to GitHub
 2. Go to [share.streamlit.io](https://share.streamlit.io)
@@ -81,21 +81,21 @@ ddr-generator/
    ```
 5. Deploy → get your live link ✅
 
-## 🔑 Getting an API Key
+##  Getting an API Key
 
 1. Go to [console.groq.com](https://console.groq.com)
 2. Sign up / Log in
 3. Go to **API Keys** → **Create Key**
 4. Copy and use it in the app
 
-## ⚠️ Limitations
+##  Limitations
 
 - Works best with text-based PDFs (not scanned/image-only PDFs)
 - Very large PDFs (50+ pages) may be slower
 - Image extraction depends on how images are embedded in the PDF
 - Report quality depends on the detail in the source documents
 
-## 🔧 How to Improve
+##  How to Improve
 
 - Add OCR support for scanned PDFs (using `pytesseract`)
 - Add table extraction from PDFs
@@ -103,7 +103,7 @@ ddr-generator/
 - Add PDF output in addition to Word
 - Add email sending functionality
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
