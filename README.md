@@ -14,7 +14,7 @@ The system will:
 3. Generate a structured 7-section DDR report
 4. Output a professional Word document (.docx)
 
-## 📄 DDR Output Structure
+##  DDR Output Structure
 
 1. Property Issue Summary
 2. Area-wise Observations (with images)
