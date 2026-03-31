@@ -1,4 +1,4 @@
- DDR Report Generator — Urbanroof AI System
+ RoofScan AI (DDR Report Generator) — Urbanroof AI System
 
 An AI-powered system that converts raw site inspection documents into structured, client-ready Detailed Diagnostic Reports (DDR).
 
